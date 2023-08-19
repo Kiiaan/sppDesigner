@@ -1,10 +1,10 @@
 #!/usr/bin/perl -w
 #Use probe script with this file as ARGV[0].
 
-our $softwareDir='/media/Home_Raid1_Voyager/kian/packages/ppDesigner_221008/opt/ppDesigner/src/';
-our $HsDir='/media/Scratch_SSD_Voyager/Kian/genomes/hg38/byChr/';
+our $softwareDir='./opt/ppDesigner/src/';
+our $HsDir='/path2genome_byChromosome_fasta/';
 
-our $exon_info_file='/media/Home_Raid1_Voyager/kian/packages/ppDesigner_221008/t1.target';
+our $exon_info_file='./t1.target';
 
 our $primerMaxLen=22;
 our $primerMinLen=17;
